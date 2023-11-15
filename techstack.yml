@@ -1,0 +1,52 @@
+repo_name: siner308/mongo-docker
+report_id: 8994eef3e27402dac7c1ea67c7526c15
+repo_type: Public
+timestamp: '2023-11-15T10:24:56+00:00'
+requested_by: siner308
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: docker-compose.yml
+  last_updated_by: siner
+  last_updated_on: 2020-03-06 18:47:01.000000000 Z
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source: docker-compose.yml
+  last_updated_by: siner
+  last_updated_on: 2020-03-06 18:47:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source: docker-compose.yml
+  last_updated_by: siner
+  last_updated_on: 2020-03-06 18:47:01.000000000 Z
